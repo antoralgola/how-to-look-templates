@@ -6,12 +6,12 @@ The single search folder that powers the entire OWN workflow. This is **YOWN** �
 
 A combined view of:
 - **All unread emails** (typically: emails where you're in CC — informational noise to be triaged)
-- **All P1 emails** (direct requests where you're in To)
-- **All P2 emails** (medium priority, manually categorized)
-- **All P3 emails** (low priority, manually categorized)
-- **All W emails** (Waiting for — sent emails you're tracking, populated by the [`sent-to-waiting`](../rules/sent-to-waiting.md) rule)
+- **All P1 emails** — to do today (direct requests, urgent items)
+- **All P2 emails** — to do tomorrow
+- **All P3 emails** — to do next week
+- **All W emails** — Waiting for replies to your sent emails (populated by the [`sent-to-waiting`](../rules/sent-to-waiting.md) rule)
 
-When grouped by category, this becomes a single, ordered, color-coded action list that fits in one screen.
+When grouped by category, this becomes a single, ordered, color-coded action list that fits in one screen. The categories form a natural time progression: today → tomorrow → next week → waiting.
 
 ## The query (Advanced Query Builder)
 
@@ -33,10 +33,10 @@ OR
 | Condition | Purpose |
 |---|---|
 | `read = No` | Catches every new email that arrives, before you've categorized it. Most of these will be CC (informational) and you'll dismiss them by marking as read. |
-| `categories contains P1` | Auto-populated by the "To = me → P1" rule. These are direct requests. |
-| `categories contains P2` | Manually assigned. Important but not urgent. |
-| `categories contains P3` | Manually assigned. Lower priority but still actionable. |
-| `categories contains W` | Auto-populated by the "Sent → Inbox → W" rule. Your follow-ups. |
+| `categories contains P1` | Today's actions. Auto-populated by the "To = me → P1" rule for direct requests. |
+| `categories contains P2` | Tomorrow's actions. Manually assigned. |
+| `categories contains P3` | Next week's actions. Manually assigned. Batch process when time allows. |
+| `categories contains W` | Waiting for replies. Auto-populated by the "Sent → Inbox → W" rule. |
 
 ## Why a single search folder
 
@@ -74,13 +74,15 @@ To make the search folder usable as an Email Action List:
 
 ## Categories required
 
-You need these categories to exist in Outlook before the search folder can populate properly:
+You need these categories to exist in Outlook before the search folder can populate properly. OWN classifies emails by **when** they need to be handled:
 
-| Category | Color (suggested) | Meaning | Assigned by |
+| Category | When | Color (suggested) | Assigned by |
 |---|---|---|---|
-| **P1** | Magenta / pink | Direct request, act today or this week | Auto-rule (To = me) |
-| **P2** | Lime green | Medium priority | Manually |
-| **P3** | Yellow | Low priority | Manually |
-| **W** | Purple | Waiting for (sent emails) | Auto-rule (Sent → Inbox) |
+| **P1** | **Today** — must be done by end of day | Magenta / red | Auto-rule (To = me) |
+| **P2** | **Tomorrow** — can wait 1 day, no more | Orange / amber | Manually |
+| **P3** | **Next week** — can be deferred, batch process | Yellow / lime | Manually |
+| **W** | **Waiting** — sent emails awaiting reply | Purple | Auto-rule (Sent → Inbox) |
 
 To create them: **Home** → **Categorize** → **All Categories** → **New**.
+
+**The re-evaluation rule**: every morning, P2 and P3 items get reviewed. Yesterday's P2 becomes today's P1. Last week's P3 becomes this week's P2 or P1. Categories are not fixed labels — they reflect the time you have left to act.

@@ -58,12 +58,18 @@ The complete walkthrough is in the book. Here's the minimal setup:
 ### 1. Create the categories
 In Outlook: **Home** → **Categorize** → **All Categories** → **New**
 
-| Category | Color | Meaning |
-|---|---|---|
-| **P1** | Magenta | Direct request, act today/this week |
-| **P2** | Lime green | Medium priority |
-| **P3** | Yellow | Low priority |
-| **W** | Purple | Waiting for (sent emails) |
+The four OWN categories classify emails by **when they need to be handled** — not by abstract importance. It's a time-based system with concrete deadlines:
+
+| Category | When | Meaning | Color |
+|---|---|---|---|
+| **P1** | **Today** | Must be done by end of day. Direct requests, urgent items, imminent deadlines. | Magenta |
+| **P2** | **Tomorrow** | Can wait 1 day, but no more. | Orange |
+| **P3** | **Next week** | Important but can be deferred. Batch processed when time allows. | Yellow |
+| **W** | **Waiting** | Emails you sent. Waiting for someone else's reply. | Purple |
+
+**Why time-based instead of importance-based**: "Important" is subjective and relative. "Today / Tomorrow / Next week" is concrete and verifiable. During triage, you need to know **when** to act, not how important something is in the abstract.
+
+**The re-evaluation rule**: every morning, P2 and P3 items get re-evaluated. Yesterday's P2 becomes today's P1. Last week's P3 becomes this week's P2 or P1. Categories are not fixed — they reflect the time you have left.
 
 ### 2. Enable the Advanced Query Builder
 Required to create the OWN Main search folder with OR logic. See [`docs/enable-query-builder.md`](docs/enable-query-builder.md).
