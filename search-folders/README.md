@@ -4,11 +4,10 @@ Search folder definitions for the GTDo workflow.
 
 The core principle of GTDo is using **a single search folder** as the main "Inbox view" — the Email Action List (EAL).
 
-## The GTDo Search Folder
+## Available search folders
 
-Filters emails that match these conditions (to be detailed):
-- Has a follow-up flag
-- OR is unread AND from a priority sender
-- OR has a specific category
+- [`gtdo-main.md`](gtdo-main.md) — **The GTDo Main search folder**. The single view that powers the entire workflow. Combines unread emails + P1/P2/P3/W categories.
 
-*(Definitions to be added — see Chapter 4 of the book.)*
+## Prerequisite
+
+The GTDo Main search folder requires the **Advanced Query Builder** to be enabled in Outlook (it uses OR logic). See [`docs/enable-query-builder.md`](../docs/enable-query-builder.md) for the setup.
