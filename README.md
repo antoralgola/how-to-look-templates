@@ -1,8 +1,12 @@
 # How to Look — Templates & Configurations
 
-Outlook templates, search folder definitions, rules, and setup guides for the **GTDo** workflow described in the book *How to Look* — a practical guide to applying [Getting Things Done](https://gettingthingsdone.com/) principles inside Microsoft Outlook.
+Outlook templates, search folder definitions, rules, and setup guides for the **GTDo** workflow described in the book *How to Look — The Outlook Workflow for the AI Era*.
 
-> *"How to Outlook" — but also "How to Look": the real superpower is not technology or automation, it's knowing where to put your attention.*
+> *How to keep your attention on what matters, when AI handles the routine and email tries harder than ever to steal your focus.*
+
+The pun in the title:
+- *How to **Out**look* — how to use Outlook
+- *How to **Look*** — how to *look*, where to put your attention. In the AI era, this is the only thing that's still entirely yours.
 
 ---
 
@@ -67,10 +71,10 @@ Open the GTDo search folder. Group by Categories. Triage Unread (typically CC no
 
 ## The book
 
-This repository accompanies the book **How to Look — A practical guide to GTDo for Outlook**.
+This repository accompanies the book **How to Look — The Outlook Workflow for the AI Era**.
 
 The book covers:
-- **Why this matters** — the email problem in modern knowledge work
+- **Why this matters** — the email problem in the age of AI
 - **Principles** — the foundations of GTDo (including the "Native first" principle)
 - **Setup** — tools and applications
 - **Configuration** — how to set up Outlook for GTDo (uses files in this repo)
@@ -78,10 +82,10 @@ The book covers:
 - **Beyond email: protect your time** — time blocking and Pomodoro for Focused Work
 - **Use Cases** — concrete examples
 - **Portability: Gmail and beyond** — applying GTDo to Gmail
-- **The AI shift** — how AI is changing the email workflow
-- **Values** — why "how to look" matters beyond Outlook
+- **The AI shift** — how Copilot, Gemini, and AI agents change the email workflow (and what doesn't change)
+- **Values** — why "how to look" matters more than ever in the AI era
 
-*(Book in progress. Self-published. Target audience: knowledge workers handling 50-200 emails/day.)*
+*Book in progress. Self-published. Target audience: knowledge workers in the post-Copilot era — people who handle 50-200 emails/day and wonder if their workflow still makes sense now that AI is in the loop.*
 
 ## License
 
