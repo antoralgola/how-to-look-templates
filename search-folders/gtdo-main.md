@@ -1,6 +1,6 @@
-# Search Folder: GTDo Main (the Email Action List)
+# Search Folder: YOWN (Your OWN view)
 
-The single search folder that powers the entire GTDo workflow. This is your **Email Action List (EAL)** — the only view of your inbox you should ever need during the day.
+The single search folder that powers the entire GTDo workflow. This is **YOWN** — *Your OWN view* — the only view of your inbox you should ever need during the day. It implements the **OWN method** (Observe / Weigh / Navigate) in your Outlook.
 
 ## What it shows
 

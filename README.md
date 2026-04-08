@@ -13,6 +13,8 @@ The method is called **OWN**:
 - **W**eigh — decide what matters (categories, priorities)
 - **N**avigate — move through the flow without drowning (workflow, deep work, follow-up)
 
+The view that implements OWN in your Outlook is called **YOWN** (= **Your OWN** view) — a personal search folder that shows only what deserves your attention. Build your YOWN. Keep it clean. YOWN to zero.
+
 *OWN your inbox. OWN your attention. OWN your look.*
 
 ---
