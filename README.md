@@ -28,7 +28,7 @@ OWN is a custom workflow that turns Outlook from a source of stress into a produ
 - **Outlook Search Folders** as logical views (no manual foldering)
 - **Native Outlook rules** to automate categorization (no macros, no add-ins, no code)
 
-The result: ~50% time saved on email handling, an Email Action List (EAL) that stays short and organized, and a clear separation between *processing* email and *acting* on it.
+The result: ~50% time saved on email handling, a YOWN that stays short and organized, and a clear separation between *processing* email and *acting* on it.
 
 ## Native first
 
