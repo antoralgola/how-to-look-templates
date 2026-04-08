@@ -1,6 +1,6 @@
 # Rule: Sent → Inbox → W (Waiting)
 
-One of the foundational rules of GTDo. Every email you send becomes a "waiting for" item that you can track in your Inbox.
+One of the foundational rules of OWN. Every email you send becomes a "waiting for" item that you can track in your Inbox.
 
 ## Why this rule
 
@@ -13,7 +13,7 @@ Without this rule:
 
 With this rule:
 - A copy of every sent email lands in your Inbox, automatically categorized as **W** (Waiting)
-- It appears in your GTDo search folder
+- It appears in your OWN search folder
 - You can review your "waiting for" items at any time
 - Once the other person replies, you process the reply and remove the W category
 
@@ -44,7 +44,7 @@ The exceptions prevent calendar acceptances/declines and meeting invites from cl
 5. **Next**
 6. Exceptions: check **except if the subject contains specific words** and add `Accepted:` and `Declined:`
 7. Check **except if it is a meeting invitation or update**
-8. **Next** → name the rule (e.g., "GTDo: Sent → Waiting") → **Finish**
+8. **Next** → name the rule (e.g., "OWN: Sent → Waiting") → **Finish**
 
 ## Prerequisites
 

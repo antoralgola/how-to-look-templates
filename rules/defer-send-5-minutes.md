@@ -51,9 +51,9 @@ The cost is minimal (5 minutes is rarely critical for any business email) and th
 6. Exceptions:
    - Check **except if sent to people or public group** → click and add your own email address
    - Check **except if it is a meeting invitation or update**
-7. **Next** → name the rule (e.g., "GTDo: Defer send 5 min") → **Finish**
+7. **Next** → name the rule (e.g., "OWN: Defer send 5 min") → **Finish**
 
-## Compatibility with other GTDo rules
+## Compatibility with other OWN rules
 
 This rule plays nicely with the [`sent-to-waiting`](sent-to-waiting.md) rule. The deferred email will still get categorized as W and copied to the Inbox when it actually leaves the Outbox after 5 minutes.
 

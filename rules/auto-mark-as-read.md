@@ -1,10 +1,10 @@
 # Rule: Auto-mark as read (filter pure noise)
 
-The opposite of categorization rules: this rule **hides** emails from the GTDo search folder by marking them as read automatically. Used for emails that don't even deserve a glance during triage.
+The opposite of categorization rules: this rule **hides** emails from the OWN search folder by marking them as read automatically. Used for emails that don't even deserve a glance during triage.
 
 ## Why this rule
 
-The [GTDo Main search folder](../search-folders/gtdo-main.md) shows all unread emails. This is intentional — unread emails are the ones you haven't triaged yet, including all CC noise.
+The [OWN Main search folder](../search-folders/gtdo-main.md) shows all unread emails. This is intentional — unread emails are the ones you haven't triaged yet, including all CC noise.
 
 But some emails are **pure noise**, every single time:
 - System notifications ("Backup completed successfully")
@@ -15,7 +15,7 @@ But some emails are **pure noise**, every single time:
 
 For these, even the few seconds of triage are wasted. You don't need to see them at all. They should:
 1. Arrive in your Inbox (so they're searchable later if needed)
-2. NOT appear in your GTDo search folder
+2. NOT appear in your OWN search folder
 3. NOT trigger any new-email indicator
 
 The way to do this is to mark them as **already read** the moment they arrive.
@@ -36,7 +36,7 @@ If your version of Outlook supports it:
 
 Older versions of Outlook may not have this action directly. In that case, the workaround is:
 1. Configure a rule that **moves** the email to a folder (you can choose Inbox itself if you want it to stay there)
-2. The action of "moving" within Outlook can be combined with custom MAPI scripting — but this would violate the **Native first** principle of GTDo
+2. The action of "moving" within Outlook can be combined with custom MAPI scripting — but this would violate the **Native first** principle of OWN
 
 If you're on a version without native "mark as read", a better approach is **Search Folders that exclude these senders/subjects** — see the alternative below.
 
@@ -76,9 +76,9 @@ The most precise: only INFO-level alerts from a specific system, not WARNING or 
 5. Actions: check **mark it as read**
 6. **Next** → exceptions if any → **Next** → name → **Finish**
 
-## Alternative: exclude from the GTDo search folder
+## Alternative: exclude from the OWN search folder
 
-If your Outlook version doesn't have a native "mark as read" action, you can achieve the same effect by **modifying the GTDo Main search folder** to exclude certain senders or subjects.
+If your Outlook version doesn't have a native "mark as read" action, you can achieve the same effect by **modifying the OWN Main search folder** to exclude certain senders or subjects.
 
 In the Query Builder, add conditions joined with AND NOT:
 ```
@@ -107,6 +107,6 @@ Marking as read keeps the email in your Inbox forever. Consider pairing this rul
 
 ## Why this is "advanced"
 
-This rule requires personal judgment about what is and isn't noise. The book recommends adding it **only after you've used GTDo for at least a month**, so you have data on which senders systematically waste your triage time.
+This rule requires personal judgment about what is and isn't noise. The book recommends adding it **only after you've used OWN for at least a month**, so you have data on which senders systematically waste your triage time.
 
-The base GTDo setup deliberately doesn't filter anything — it shows you everything unread, and you decide. Once you've made the same "mark as read and ignore" decision 10 times for the same sender, that's the moment to automate it with this rule.
+The base OWN setup deliberately doesn't filter anything — it shows you everything unread, and you decide. Once you've made the same "mark as read and ignore" decision 10 times for the same sender, that's the moment to automate it with this rule.

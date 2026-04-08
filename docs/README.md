@@ -1,10 +1,10 @@
 # Documentation
 
-Setup guides, screenshots, and walkthroughs for the GTDo workflow.
+Setup guides, screenshots, and walkthroughs for the OWN workflow.
 
 ## Available
 
-- [`enable-query-builder.md`](enable-query-builder.md) — Registry hack to enable Outlook's Advanced Query Builder (required for the GTDo Main search folder)
+- [`enable-query-builder.md`](enable-query-builder.md) — Registry hack to enable Outlook's Advanced Query Builder (required for the OWN Main search folder)
 
 ## Planned
 

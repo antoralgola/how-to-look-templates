@@ -1,6 +1,6 @@
 # Search Folder: YOWN (Your OWN view)
 
-The single search folder that powers the entire GTDo workflow. This is **YOWN** — *Your OWN view* — the only view of your inbox you should ever need during the day. It implements the **OWN method** (Observe / Weigh / Navigate) in your Outlook.
+The single search folder that powers the entire OWN workflow. This is **YOWN** — *Your OWN view* — the only view of your inbox you should ever need during the day. It implements the **OWN method** (Observe / Weigh / Navigate) in your Outlook.
 
 ## What it shows
 
@@ -40,7 +40,7 @@ OR
 
 ## Why a single search folder
 
-The first version of GTDo used multiple folders/views. It failed for the reasons explained in Chapter 2: foldering creates cognitive load.
+The first version of OWN used multiple folders/views. It failed for the reasons explained in Chapter 2: foldering creates cognitive load.
 
 A single search folder:
 - **One place to look**: no decision about which view to open
@@ -55,7 +55,7 @@ A single search folder:
 
 ### Steps
 1. **Folder** tab → **New Search Folder** → scroll to bottom → **Create a custom Search Folder** → **Choose**
-2. Name it: **GTDo** (or whatever you prefer)
+2. Name it: **OWN** (or whatever you prefer)
 3. Click **Criteria** → switch to the **Advanced** tab (or the **Query Builder** tab if registry hack is applied)
 4. Add conditions joined by OR (see query above)
 5. Save → the search folder appears in the navigation pane

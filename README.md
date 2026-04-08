@@ -1,6 +1,6 @@
 # How to Look — Templates & Configurations
 
-Outlook templates, search folder definitions, rules, and setup guides for the **GTDo** workflow described in the book *How to Look — The Outlook Workflow for the AI Era*.
+Outlook templates, search folder definitions, rules, and setup guides for the **OWN** workflow described in the book *How to Look — The Outlook Workflow for the AI Era*.
 
 > *How to keep your attention on what matters, when AI handles the routine and email tries harder than ever to steal your focus.*
 
@@ -19,9 +19,9 @@ The view that implements OWN in your Outlook is called **YOWN** (= **Your OWN** 
 
 ---
 
-## What is GTDo?
+## What is OWN?
 
-GTDo is a custom workflow that turns Outlook from a source of stress into a productivity tool. It combines:
+OWN is a custom workflow that turns Outlook from a source of stress into a productivity tool. It combines:
 
 - **Inbox Zero** best practices
 - **GTD** task management (priorities, contexts, next actions)
@@ -44,7 +44,7 @@ Everything in this repository uses **standard Outlook features only**. No VBA ma
 
 ```
 .
-├── search-folders/      Search folder definitions (the GTDo Main view)
+├── search-folders/      Search folder definitions (the OWN Main view)
 ├── rules/               Outlook rules templates (the two foundational rules)
 ├── docs/                Setup guides, registry hacks, walkthroughs
 ├── README.md            This file
@@ -66,9 +66,9 @@ In Outlook: **Home** → **Categorize** → **All Categories** → **New**
 | **W** | Purple | Waiting for (sent emails) |
 
 ### 2. Enable the Advanced Query Builder
-Required to create the GTDo Main search folder with OR logic. See [`docs/enable-query-builder.md`](docs/enable-query-builder.md).
+Required to create the OWN Main search folder with OR logic. See [`docs/enable-query-builder.md`](docs/enable-query-builder.md).
 
-### 3. Create the GTDo Main search folder
+### 3. Create the OWN Main search folder
 The single view that powers the entire workflow. See [`search-folders/gtdo-main.md`](search-folders/gtdo-main.md).
 
 ### 4. Set up the two foundational rules
@@ -76,7 +76,7 @@ The single view that powers the entire workflow. See [`search-folders/gtdo-main.
 - [`rules/sent-to-waiting.md`](rules/sent-to-waiting.md) — emails you send become tracked waiting-for items
 
 ### 5. Start processing
-Open the GTDo search folder. Group by Categories. Triage Unread (typically CC noise) by marking as read. Work on P1 first, then P2/P3, then W.
+Open the OWN search folder. Group by Categories. Triage Unread (typically CC noise) by marking as read. Work on P1 first, then P2/P3, then W.
 
 ## The book
 
@@ -84,13 +84,13 @@ This repository accompanies the book **How to Look — The Outlook Workflow for 
 
 The book covers:
 - **Why this matters** — the email problem in the age of AI
-- **Principles** — the foundations of GTDo (including the "Native first" principle)
+- **Principles** — the foundations of OWN (including the "Native first" principle)
 - **Setup** — tools and applications
-- **Configuration** — how to set up Outlook for GTDo (uses files in this repo)
+- **Configuration** — how to set up Outlook for OWN (uses files in this repo)
 - **Standard Workflow** — daily processing routine
 - **Beyond email: protect your time** — time blocking and Pomodoro for Focused Work
 - **Use Cases** — concrete examples
-- **Portability: Gmail and beyond** — applying GTDo to Gmail
+- **Portability: Gmail and beyond** — applying OWN to Gmail
 - **The AI shift** — how Copilot, Gemini, and AI agents change the email workflow (and what doesn't change)
 - **Values** — why "how to look" matters more than ever in the AI era
 

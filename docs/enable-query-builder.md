@@ -1,12 +1,12 @@
 # Enable the Advanced Query Builder in Outlook
 
-By default, Outlook's "Filter Criteria" dialog only allows AND logic between conditions. To create the [GTDo Main search folder](../search-folders/gtdo-main.md), you need OR logic — and that requires the **Advanced Query Builder**, which is hidden behind a registry setting.
+By default, Outlook's "Filter Criteria" dialog only allows AND logic between conditions. To create the [OWN Main search folder](../search-folders/gtdo-main.md), you need OR logic — and that requires the **Advanced Query Builder**, which is hidden behind a registry setting.
 
 > ⚠️ This requires editing the Windows registry. Always back up your registry before making changes.
 
 ## Why you need it
 
-The GTDo Main search folder uses 5 conditions joined by **OR**:
+The OWN Main search folder uses 5 conditions joined by **OR**:
 ```
 read = No
 OR categories contains P1
@@ -48,12 +48,12 @@ Without the Query Builder tab, the standard "Advanced" tab in the search folder 
 
 Open the Query Builder tab. You should see a dropdown labeled **Logical Group: AND/OR/NOT** at the top. If the dropdown is there, you're set.
 
-## Use the Query Builder for GTDo Main
+## Use the Query Builder for OWN Main
 
 1. Open the Query Builder tab
 2. Set the dropdown to **OR**
 3. Add the 5 conditions one by one (read=No, categories contains P1, P2, P3, W)
-4. Save the criteria as a search folder named "GTDo"
+4. Save the criteria as a search folder named "OWN"
 
 ## Troubleshooting
 

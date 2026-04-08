@@ -17,7 +17,7 @@ With this rule:
 - The same email arrives
 - The rule recognizes the team alias in the To field
 - It assigns **P1** anyway
-- The email appears under P1 in your GTDo search folder
+- The email appears under P1 in your OWN search folder
 - You see it as a direct request, because functionally it is one
 
 ## The rule
@@ -48,7 +48,7 @@ Or, more precisely:
 7. Exceptions (optional but recommended):
    - **Except if from** [low-priority senders] — to filter out automated emails sent to the same alias
    - **Except if subject contains** [keywords] — to ignore specific topics
-8. **Next** → name the rule (e.g., "GTDo: Team alias → P1") → **Finish**
+8. **Next** → name the rule (e.g., "OWN: Team alias → P1") → **Finish**
 
 ## Multiple distribution lists
 
@@ -79,4 +79,4 @@ This ensures only your manager's emails to the team get P1, not every team membe
 
 ## Why this isn't in the base setup
 
-This rule depends on **your specific organizational context**: which distribution lists exist, who uses them for what. There's no one-size-fits-all version. The book recommends adding this rule once you've used GTDo for a few weeks and identified the specific aliases that systematically carry requests.
+This rule depends on **your specific organizational context**: which distribution lists exist, who uses them for what. There's no one-size-fits-all version. The book recommends adding this rule once you've used OWN for a few weeks and identified the specific aliases that systematically carry requests.
