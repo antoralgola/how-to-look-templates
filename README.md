@@ -8,6 +8,13 @@ The pun in the title:
 - *How to **Out**look* — how to use Outlook
 - *How to **Look*** — how to *look*, where to put your attention. In the AI era, this is the only thing that's still entirely yours.
 
+The method is called **OWN**:
+- **O**bserve — see what's arriving (triage, separate signal from noise)
+- **W**eigh — decide what matters (categories, priorities)
+- **N**avigate — move through the flow without drowning (workflow, deep work, follow-up)
+
+*OWN your inbox. OWN your attention. OWN your look.*
+
 ---
 
 ## What is GTDo?
