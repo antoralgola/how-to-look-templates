@@ -69,7 +69,7 @@ In Outlook: **Home** → **Categorize** → **All Categories** → **New**
 Required to create the OWN Main search folder with OR logic. See [`docs/enable-query-builder.md`](docs/enable-query-builder.md).
 
 ### 3. Create the OWN Main search folder
-The single view that powers the entire workflow. See [`search-folders/gtdo-main.md`](search-folders/gtdo-main.md).
+The single view that powers the entire workflow. See [`search-folders/yown.md`](search-folders/yown.md).
 
 ### 4. Set up the two foundational rules
 - [`rules/to-me-equals-p1.md`](rules/to-me-equals-p1.md) — emails to you become P1 automatically

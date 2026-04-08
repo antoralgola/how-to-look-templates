@@ -2,11 +2,11 @@
 
 Search folder definitions for the OWN workflow.
 
-The core principle of OWN is using **a single search folder** as the main "Inbox view" — the Email Action List (EAL).
+The core principle of OWN is using **a single search folder** as the main "Inbox view" — the **YOWN** (Your OWN view).
 
 ## Available search folders
 
-- [`gtdo-main.md`](gtdo-main.md) — **The OWN Main search folder**. The single view that powers the entire workflow. Combines unread emails + P1/P2/P3/W categories.
+- [`yown.md`](yown.md) — **The OWN Main search folder**. The single view that powers the entire workflow. Combines unread emails + P1/P2/P3/W categories.
 
 ## Prerequisite
 

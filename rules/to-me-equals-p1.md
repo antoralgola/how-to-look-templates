@@ -44,7 +44,7 @@ You can downgrade later (P2 or P3) if upon reading you realize it's not actually
 
 ## How this combines with the OWN Search Folder
 
-Together with the [OWN Main search folder](../search-folders/gtdo-main.md), this rule produces the daily workflow:
+Together with the [OWN Main search folder](../search-folders/yown.md), this rule produces the daily workflow:
 
 1. New email arrives
 2. If you're in To → automatically P1 → appears in the OWN search folder grouped under P1

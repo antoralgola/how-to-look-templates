@@ -4,7 +4,7 @@ The opposite of categorization rules: this rule **hides** emails from the OWN se
 
 ## Why this rule
 
-The [OWN Main search folder](../search-folders/gtdo-main.md) shows all unread emails. This is intentional — unread emails are the ones you haven't triaged yet, including all CC noise.
+The [OWN Main search folder](../search-folders/yown.md) shows all unread emails. This is intentional — unread emails are the ones you haven't triaged yet, including all CC noise.
 
 But some emails are **pure noise**, every single time:
 - System notifications ("Backup completed successfully")

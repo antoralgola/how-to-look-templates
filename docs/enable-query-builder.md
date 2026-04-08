@@ -1,6 +1,6 @@
 # Enable the Advanced Query Builder in Outlook
 
-By default, Outlook's "Filter Criteria" dialog only allows AND logic between conditions. To create the [OWN Main search folder](../search-folders/gtdo-main.md), you need OR logic — and that requires the **Advanced Query Builder**, which is hidden behind a registry setting.
+By default, Outlook's "Filter Criteria" dialog only allows AND logic between conditions. To create the [OWN Main search folder](../search-folders/yown.md), you need OR logic — and that requires the **Advanced Query Builder**, which is hidden behind a registry setting.
 
 > ⚠️ This requires editing the Windows registry. Always back up your registry before making changes.
 
